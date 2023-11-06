@@ -4,10 +4,10 @@ tDemoChatBotCPP
 demo for CPP class on Noc 6, 2023
 
 ## Creating a Simple Flask Web Application
-###Overview
+### Overview
 This guide will help you create a basic web application using Python and the Flask web framework. The application will display a background image and allow users to enter and display text.
 
-###Prerequisites
+### Prerequisites
 Python installed on your computer.
 Flask framework installed (pip install Flask).
 Step-by-Step Guide
@@ -19,7 +19,7 @@ Inside the project directory, create the following files:
 app.py: Python script for your web application.
 templates folder: Create a folder named "templates" to store your HTML templates.
 static folder: Create a folder named "static" to store static files like images.
-##2. HTML Template
+## 2. HTML Template
 Create an HTML file named index.html inside the "templates" folder. You can customize this file as desired. Here's an example:
 
 html
@@ -46,7 +46,7 @@ Copy code
     <textarea name="answer" rows="4" cols="100">{{ textAnswer }}</textarea><br>
 </body>
 </html>
-##3. Python Code
+## 3. Python Code
 In your app.py file, write the Python code for your web application. Here's an example using Flask:
 
 python
@@ -65,7 +65,7 @@ def start_here():
 
 if __name__ == "__main__":
     app.run(debug=True)
-##4. Static Files
+## 4. Static Files
 Place the background image file (e.g., twoRobotsReading.png) in the "static" folder.
 
 Update the CSS in your HTML template to reference the image correctly:
@@ -73,7 +73,7 @@ Update the CSS in your HTML template to reference the image correctly:
 css
 Copy code
 background-image: url('/static/twoRobotsReading.png');
-##5. Run Your Application
+## 5. Run Your Application
 Open a terminal, navigate to your project directory, and run your Flask application:
 
 Copy code
